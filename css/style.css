@@ -1,0 +1,138 @@
+html {
+    margin: 10px;
+}
+
+/* Importar fuente de letra */
+@font-face {
+    font-family: deltaruneFont;
+    src: url(../font/deltaruneFont.otf);
+}
+
+#cajaPuntos {
+    width: 680px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    p {
+        font-family: deltaruneFont;
+        text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        margin: 0;
+
+        .suma {
+            color: rgb(0, 255, 0);
+        }
+
+        .resta {
+            color: red;
+        }
+
+        .escondido {
+            color: rgb(0, 0, 255);
+            text-shadow: none;
+        }
+    }
+}
+
+
+html {
+    background-image: url("../img/bg_image.jpg");
+}
+
+#cajaPuntos {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+}
+
+#updatePuntos {
+    p {
+        display: inline-block;
+
+        font-family: deltaruneFont;
+        color: white;
+        text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        margin: 0;
+    }
+
+    #inputPuntos {
+        border-radius: 8px;
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        font-family: deltaruneFont;
+    }
+
+    #actualizar {
+        font-size: 10px;
+        font-family: deltaruneFont;
+        color: white;
+        background-color: black;
+        border: 2px solid white;
+    }
+}
+
+#arriba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menuGeneral {
+    input {
+        font-family: deltaruneFont;
+        color: white;
+        font-size: 20px;
+
+        width: fit-content;
+        height: 50px;
+
+
+        background-color: black;
+        border: 2px solid white;
+    }
+}
+
+#botonesCap1,
+#botonesCap2,
+#botonesCap3,
+#botonesCap4,
+#botonesGlobales {
+    h1 {
+        color: white;
+        font-family: deltaruneFont;
+        text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .actual {
+        color: yellow;
+    }
+
+    input {
+        font-family: deltaruneFont;
+        color: white;
+        font-size: 13px;
+
+        width: fit-content;
+
+
+        background-color: black;
+        border: 2px solid white;
+        margin-bottom: 5px;
+    }
+}
