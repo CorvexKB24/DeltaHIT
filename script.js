@@ -73,7 +73,7 @@ $(document).ready(function () {
         { id: "#roulxNOHIT", puntos: 150, tipo: "sumar" },
         { id: "#pianoMegalo", puntos: 10, tipo: "sumar" },
         { id: "#estatuaGerson", puntos: 60, tipo: "sumar" },
-        { id: "#escaladaNOHIT", puntos: 30, tipo: "sumar" };
+        { id: "#escaladaNOHIT", puntos: 30, tipo: "sumar" }
         // { id: "#jackensteinVELOZ", puntos: 50, tipo: "sumar" }
     ];
 
@@ -145,6 +145,7 @@ $(document).ready(function () {
         }
     }
 });
+
 
 
 
