@@ -52,8 +52,8 @@ $(document).ready(function () {
         { id: "#cabelleroNOHIT", puntos: 350, tipo: "sumar" },
         { id: "#derrotarGerson", puntos: 100, tipo: "sumar" },
         { id: "#gersonNOHIT", puntos: 200, tipo: "sumar" },
-        { id: "#jackensteinNOHIT", puntos: 50, tipo: "sumar" },
-        { id: "#msMizzle", puntos: 20, tipo: "sumar" },
+        { id: "#jackensteinNOHIT", puntos: 80, tipo: "sumar" },
+        { id: "#msMizzle", puntos: 60, tipo: "sumar" },
         { id: "#tobyFox", puntos: 33, tipo: "sumar" },
         { id: "#alcanzarCaballero", puntos: 50, tipo: "sumar" },
         { id: "#alcanzarNOHIT", puntos: 100, tipo: "sumar" },
@@ -70,7 +70,10 @@ $(document).ready(function () {
         { id: "#tennaNOHIT", puntos: 150, tipo: "sumar" },
         { id: "#titanNOHIT", puntos: 150, tipo: "sumar" },
         { id: "#noHIToverworld", puntos: 15, tipo: "sumar" },
-        { id: "#roulxNOHIT", puntos: 150, tipo: "sumar" }
+        { id: "#roulxNOHIT", puntos: 150, tipo: "sumar" },
+        { id: "#pianoMegalo", puntos: 10, tipo: "sumar" },
+        { id: "#estatuaGerson", puntos: 60, tipo: "sumar" },
+        { id: "#escaladaNOHIT", puntos: 30, tipo: "sumar" };
         // { id: "#jackensteinVELOZ", puntos: 50, tipo: "sumar" }
     ];
 
@@ -142,5 +145,6 @@ $(document).ready(function () {
         }
     }
 });
+
 
 
